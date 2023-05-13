@@ -61,5 +61,5 @@ jobs:
                     # Publish build info
                     jfrog rt bp
                     # Scan build
-                    jfrog rt bs
+                    jfrog build-scan
                 if: always()
